@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Registration Form</h1>
+    </head>
+    <body>
+        <form>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+        </form>
+        <form>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name"> 
+        </form>
+        <form>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </form>
+        <form>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </form>
+        <form>
+            <label for="password">PW Confirm:</label>
+            <input type="password" id="password" name="password">
+        </form>
+        <form>
+            <label for="Date">BirthDate:</label>
+            <input type="date">
+        </form>
+        <form>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="decline">Non-binary</label>
+            <input type="radio" id="decline" name="gender" valuecopy="decline">
+            <p>Favorite Language: 
+                <select name="language">
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>HTML</option>
+                </select>
+            </p>
+        </form>
+        <form> 
+            <p>A short description about yourself:</p>
+            <textarea name="description"></textarea>
+        </form>
+        <form> 
+            <input type="checkbox" id="update">
+            <label for="update">Yes, I would like to receive periodic email updates</label>
+        </form>
+            <input type="submit" value="Create Account">
+        
+    </body>
+</html>
